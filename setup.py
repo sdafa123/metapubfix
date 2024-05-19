@@ -22,7 +22,7 @@ setup(
                    },
     install_requires = [
         'setuptools',
-        'lxml',
+        'lxml[html_clean]',
         'requests',
         'eutils',
         'habanero',
